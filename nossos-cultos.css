@@ -1,0 +1,55 @@
+/*IMAGEM*/
+#image_igreja{
+    width: 600px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+/*TODO O CAMPO DE TEXTO*/
+.apresentação_nossos_cultos{
+    padding: 4% 7.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*COLUNA DE IMAGENS*/
+.coluna_imagem_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apresentacao_nossos_cultos {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    color: var(--cor-terciaria);
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 19px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+}
+
+.apresentacao__conteudo__texto__destaque {
+    color: var(--cor-terciaria);
+}
+
+.rodape{
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
